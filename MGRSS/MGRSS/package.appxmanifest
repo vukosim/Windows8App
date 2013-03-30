@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="54912BionicV.MailandGuardianVideoFeedDisplay" Version="1.0.0.1" Publisher="CN=4A164C16-0718-4A3E-BCD5-D11E599CDC7E" />
+  <Properties>
+    <DisplayName>Mail and Guardian Video Feed Display</DisplayName>
+    <PublisherDisplayName>BionicV</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Mail and Guardian Video Feed Display" Logo="small-logo.png" SmallLogo="tiny-logo.png" Description="Simple application that fetches the Mail and Guardian Video feed from Youtube." ForegroundText="light" BackgroundColor="#ff2b06">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="splash-final.png" BackgroundColor="#ff2b06" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
